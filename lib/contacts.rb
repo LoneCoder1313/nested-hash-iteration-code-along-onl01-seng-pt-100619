@@ -15,7 +15,7 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-  contacts.collect |favorite_ice_cream_flavors|
+  contacts{Freddy Mercury}.collect |favorite_ice_cream_flavors|
   favorite_ice_cream_flavors >> strawberry
 
 end
