@@ -15,8 +15,8 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-  #removes the strawberry ice cream from :favorite_ice_cream_flavors 
-  results = remove_strawberry(contacts)
-  expect ["Freddy Mercury"][:favorite_ice_cream_flavors].to_not include("strawberry")
+  contacts.each do |Freddy Mercury|
+    binding.pry 
+    
 
 end
